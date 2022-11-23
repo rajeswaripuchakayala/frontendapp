@@ -1,0 +1,96 @@
+  {/* {showPics &&
+          photos.length > 0 &&
+          photos.map((pics) =>
+            pics.Imageurls.map((imgs, id) => {
+              return (
+                <>
+                  <div
+                    className="column"
+                    key={id}
+                    style={{ padding: "15px", flex: "23%" }}
+                  >
+                    <img
+                      className="image"
+                      src={imgs.profile_url}
+                      height="300"
+                      width="300"
+                      fluid
+                      alt="Notfound"
+                      key={id}
+                      onClick={() => {
+                        setIndex(index);
+                        setIsOpen(true);
+                      }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      height: "800px",
+                      width: "1000",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <ReactImageCarouselViewer
+                      open={isOpen}
+                      onClose={() => setIsOpen(false)}
+                      images={imgs.profile_url}
+                      startIndex={index}
+                      style={{ opacity: "0.4" }}
+                    />
+                  </div>
+                </>
+              );
+            })
+          )} */}
+
+
+
+          
+      {/* rendering images */}
+    
+        {/* {showPics &&
+          photos.length > 0 &&
+          photos.map((pics) =>
+            pics.Imageurls.map((imgs, id) => {
+              return (
+                <>
+                  <div
+                    className="column"
+                    key={id}
+                    style={{ padding: "15px", flex: "23%" }}
+                  >
+                    <img
+                      className="image"
+                      src={imgs.profile_url}
+                      height="300"
+                      width="300"
+                      fluid
+                      alt="Notfound"
+                      key={id}
+                      onClick={() => {
+                        setIndex(index);
+                        setIsOpen(true);
+                      }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      height: "800px",
+                      width: "1000",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <ReactImageCarouselViewer
+                      open={isOpen}
+                      onClose={() => setIsOpen(false)}
+                      images={imgs.profile_url}
+                      startIndex={index}
+                      style={{ opacity: "0.4" }}
+                    />
+                  </div>
+                </>
+              );
+            })
+          )} */}
+
+        {/* dummy data */}

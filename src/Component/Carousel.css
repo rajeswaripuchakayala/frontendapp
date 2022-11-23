@@ -1,0 +1,21 @@
+.imgbox {
+    padding: 160px 0px 0px 30px;
+}
+  
+  
+  .imgbox .img {
+    display: inline-block;
+    box-shadow: -30px 30px 0 #1e3796;
+    margin: 50px 100px 10px 140px;
+    position: relative;
+
+  }
+  .imgbox1 {
+    padding: 160px 0px 0px 30px;
+  }
+  .imgbox1 .img {
+    display: inline-block;
+    margin: 50px 100px 10px 140px;
+    position: relative;
+
+  }

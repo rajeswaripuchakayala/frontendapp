@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  font-family: 'NeoSansStd';
+}
+
+.app {
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  top:50%;
+  left:50%;
+  justify-content: center;;
+  flex-direction: column;
+  height: 100vh;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border-radius: 5px;
+  padding: 18px;
+  width: 15rem;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 18px;
+  background: #125bd9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid #125bd9;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: green;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-forms {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(233, 248,248, 0.7);
+  padding: 5rem;
+  margin-left: -80rem;
+  height: 50%;
+  box-shadow: 1 4px 8px 0 rgba(10, 114, 62, 0.872), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+  
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  position: inherit;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
